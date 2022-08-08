@@ -15,18 +15,25 @@ public class Main {
         double[] array2 = new double[]{1.57, 7.654, 9.986};
         double secondArray0 = array2[0];
         double secondArray1 = array2[1];
-        double secodnArray2 = array2[2];
+        double secondArray2 = array2[2];
 
         long[] array3 = new long[3];
-        array3[0] = 567;
-        array3[1] = 8372;
-        array3[2] = 26904;
+        array3[0] = 5;
+        array3[1] = 7;
+        array3[2] = 9;
         long thirdArray0 = array3[0];
         long thirdArray1 = array3[1];
         long thirdArray2 = array3[2];
 
         // Задание 2
-        System.out.println(String.format("%s %s %s %s %s %s %s %s %s", firstArray0, firstArray1, firstArray2, secondArray0, secondArray1, secodnArray2, thirdArray0, thirdArray1, thirdArray2));
+        System.out.println(String.format("%s, %s, %s", firstArray0, firstArray1, firstArray2));
+        System.out.println(String.format("%s, %s, %s", secondArray0, secondArray1, secondArray2));
+        System.out.println(String.format("%s, %s, %s", thirdArray0, thirdArray1, thirdArray2));
+
+        // Задание 3
+        System.out.println(String.format("%s, %s, %s", firstArray2, firstArray1, firstArray0));
+        System.out.println(String.format("%s, %s, %s", secondArray2, secondArray1, secondArray0));
+        System.out.println(String.format("%s, %s, %s", thirdArray2, thirdArray1, thirdArray0));
 
     }
 
