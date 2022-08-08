@@ -34,6 +34,20 @@ public class Main {
         System.out.println(String.format("%s, %s, %s", firstArray2, firstArray1, firstArray0));
         System.out.println(String.format("%s, %s, %s", secondArray2, secondArray1, secondArray0));
         System.out.println(String.format("%s, %s, %s", thirdArray2, thirdArray1, thirdArray0));
+        
+        // Задание 4
+        System.out.println("Задание 4");
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i]%2 !=0) {
+                array1[i] = array1[i] + 1;
+            }
+            if (i < array1.length -1)
+                System.out.print(array1[i] + ", ");
+            else
+                System.out.println(array1[i]);
+
+
+        }
 
     }
 
