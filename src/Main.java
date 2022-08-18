@@ -26,15 +26,41 @@ public class Main {
         long thirdArray2 = array3[2];
 
         // Задание 2
-        System.out.println(String.format("%s, %s, %s", firstArray0, firstArray1, firstArray2));
-        System.out.println(String.format("%s, %s, %s", secondArray0, secondArray1, secondArray2));
-        System.out.println(String.format("%s, %s, %s", thirdArray0, thirdArray1, thirdArray2));
+        System.out.println("Задание 2");
+        for (int i = 0; i < array1.length -1; i++) {
+            System.out.print(array1[i] + ", ");
+        }
+        System.out.println(array1[array1.length -1]);
+
+        for (int i = 0; i < array2.length -1; i++) {
+            System.out.print(array2[i] + ", ");
+        }
+        System.out.println(array2[array2.length -1]);
+
+        for (int i = 0; i < array3.length -1; i++) {
+            System.out.print(array3[i] + ", ");
+        }
+        System.out.println(array3[array3.length -1]);
+
 
         // Задание 3
-        System.out.println(String.format("%s, %s, %s", firstArray2, firstArray1, firstArray0));
-        System.out.println(String.format("%s, %s, %s", secondArray2, secondArray1, secondArray0));
-        System.out.println(String.format("%s, %s, %s", thirdArray2, thirdArray1, thirdArray0));
-        
+        System.out.println("Задание 3");
+        for (int i = array1.length -1; i > 0; i--) {
+            System.out.print(array1[i] + ", ");
+        }
+        System.out.println(array1[0]);
+
+        for (int i = array2.length -1; i > 0; i--) {
+            System.out.print(array2[i] + ", ");
+        }
+        System.out.println(array2[0]);
+
+        for (int i = array3.length -1; i > 0; i--) {
+            System.out.print(array3[i] + ", ");
+        }
+        System.out.println(array3[0]);
+
+
         // Задание 4
         System.out.println("Задание 4");
         for (int i = 0; i < array1.length; i++) {
